@@ -98,6 +98,7 @@ function restart(){
 if(localStorage.getItem('max_score') === null){
     localStorage.setItem('max_score', "0")
     show_max_score();
+    location.reload();
 }
 
 window.onload = function show_max_score(){
