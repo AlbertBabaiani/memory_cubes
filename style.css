@@ -173,9 +173,16 @@ body {
 }
 
 .speed {
+  justify-content: space-between;
+  flex-wrap: wrap;
   transition: opacity 0.3s;
 }
 
+@media (width <= 303px) {
+  .speed {
+    justify-content: center !important;
+  }
+}
 .title {
   margin-top: 2rem;
   padding: 1rem;

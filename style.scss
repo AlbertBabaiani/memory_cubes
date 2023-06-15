@@ -212,7 +212,15 @@ background: $darkPurple; /* Color of the scrollbar handle on hover */
 
 
 .speed{
+    justify-content: space-between;
+    flex-wrap: wrap;
     transition: opacity 0.3s;
+}
+
+@media (width <= 303px) {
+    .speed{
+        justify-content: center !important;
+    }
 }
 
 ///////////////////////////////
